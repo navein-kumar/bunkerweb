@@ -1,0 +1,112 @@
+body {
+  color: #8e9194;
+  background-color: #f4f6f9;
+  min-height: 100vh;
+}
+
+.container-fluid {
+  flex: 1 0 auto;
+}
+
+.text-muted {
+  color: #aeb0b4 !important;
+}
+
+.text-muted {
+  font-weight: 300;
+}
+
+.site-body .flex-grow-1.d-flex {
+  background-clip: content-box;
+}
+
+.site-body .row .col-form-label,
+.site-body .row .col-8 {
+  background-color: transparent;
+}
+
+.site-body .nav-pills .nav-link.active,
+.site-body .nav-pills .nav-link:hover {
+  background-color: rgba(64, 187, 107, 0.5) !important;
+  background-clip: border-box !important;
+}
+
+.fa-circle-info,
+.fa-question-circle {
+  color: #085577 !important;
+}
+
+.site-body aside {
+  background: none !important;
+  z-index: 0;
+}
+
+.site-body .nav-link span,
+main label {
+  color: #000 !important;
+}
+
+.site-body .btn-primary {
+  background-color: #085577;
+  border-color: #085577;
+}
+
+.site-body .btn-primary:hover {
+  background-color: #247496;
+  border-color: #247496;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  white-space: nowrap;
+  border: none;
+  background-color: #f0f0f0 !important;
+  border-radius: 3px;
+  z-index: -1;
+}
+
+.token.string,
+.token.string,
+.token.entity,
+.token.operator,
+.token.url {
+  background-color: #f0f0f0 !important;
+}
+
+pre {
+  border: 1px solid #cccccc !important;
+  line-height: 19px;
+  overflow-x: auto;
+  overflow-y: auto;
+  border-radius: 3px;
+}
+
+.toast-container {
+  z-index: 11;
+}
+
+.toast-body .socials a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.toast-body .bi-linkedin {
+  color: #0077b5 !important;
+}
+
+.toast-body .bi-twitter {
+  color: #55acee !important;
+}
+
+.toast-body .bi-github {
+  color: #333 !important;
+}
+
+.nav {
+  z-index: 1;
+}
+
+#integrations-selection {
+  background-color: #f4f6f9;
+}
